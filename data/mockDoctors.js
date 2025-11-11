@@ -1,0 +1,172 @@
+/**
+ * Mock doctor data for 3rbst MVP
+ * Based on actual enriched female doctor dataset
+ * Includes top-rated and verified doctors from different Bundesländer
+ */
+
+export const mockDoctors = [
+  {
+    id: "GER-DOC-001",
+    name: "Dr. Amina Al-Khalid",
+    specialty: "Gynäkologie",
+    bundesland: "Berlin",
+    city: "Berlin",
+    phone: "+49 30 1234567",
+    email: "amina.khalid@example.com",
+    website: "https://clinic-berlin.de",
+    languages: "Deutsch, العربية, English",
+    verified: true,
+    recommended: true,
+    jameda_url: "https://www.jameda.de/aerzte/al-khalid-amina/berlin",
+    doctolib_url: "https://www.doctolib.de/arzt/amina-al-khalid",
+    description: "Spezialisiert auf Frauengesundheit mit kulturellem Verständnis"
+  },
+  {
+    id: "GER-DOC-002",
+    name: "Dr. Maria Weber",
+    specialty: "Allgemeinmedizin",
+    bundesland: "Bayern",
+    city: "München",
+    phone: "+49 89 7654321",
+    email: "maria.weber@praxis-muenchen.de",
+    website: "https://praxis-weber-muenchen.de",
+    languages: "Deutsch, English",
+    verified: true,
+    recommended: true,
+    jameda_url: "https://www.jameda.de/aerzte/weber-maria/muenchen",
+    doctolib_url: "https://www.doctolib.de/arzt/maria-weber",
+    description: "Hausärztin mit Fokus auf ganzheitliche Frauengesundheit"
+  },
+  {
+    id: "GER-DOC-003",
+    name: "Dr. Ayşe Yılmaz",
+    specialty: "Gynäkologie",
+    bundesland: "Nordrhein-Westfalen",
+    city: "Köln",
+    phone: "+49 221 9876543",
+    email: "ayse.yilmaz@frauenarzt-koeln.de",
+    website: "https://frauenarzt-yilmaz.de",
+    languages: "Deutsch, Türkçe",
+    verified: true,
+    recommended: true,
+    jameda_url: "https://www.jameda.de/aerzte/yilmaz-ayse/koeln",
+    doctolib_url: "https://www.doctolib.de/arzt/ayse-yilmaz",
+    description: "Frauenärztin mit türkisch-deutscher Expertise"
+  },
+  {
+    id: "GER-DOC-004",
+    name: "Dr. Sophie Richter",
+    specialty: "Kardiologie",
+    bundesland: "Hamburg",
+    city: "Hamburg",
+    phone: "+49 40 5551234",
+    email: "sophie.richter@herz-hamburg.de",
+    website: "https://kardiologie-richter.de",
+    languages: "Deutsch, English, Français",
+    verified: true,
+    recommended: false,
+    jameda_url: "https://www.jameda.de/aerzte/richter-sophie/hamburg",
+    doctolib_url: "https://www.doctolib.de/arzt/sophie-richter",
+    description: "Kardiologin mit Schwerpunkt Frauenherzen"
+  },
+  {
+    id: "GER-DOC-005",
+    name: "Dr. Fatima Hassan",
+    specialty: "Allgemeinmedizin",
+    bundesland: "Berlin",
+    city: "Berlin",
+    phone: "+49 30 8887766",
+    email: "fatima.hassan@praxis-berlin.de",
+    website: "https://praxis-hassan.de",
+    languages: "Deutsch, العربية, English",
+    verified: true,
+    recommended: false,
+    jameda_url: "https://www.jameda.de/aerzte/hassan-fatima/berlin",
+    doctolib_url: "https://www.doctolib.de/arzt/fatima-hassan",
+    description: "Hausärztin mit interkultureller Kompetenz"
+  },
+  {
+    id: "GER-DOC-006",
+    name: "Dr. Laura Bianchi",
+    specialty: "Dermatologie",
+    bundesland: "Baden-Württemberg",
+    city: "Stuttgart",
+    phone: "+49 711 3334455",
+    email: "laura.bianchi@hautarzt-stuttgart.de",
+    website: "https://dermatologie-bianchi.de",
+    languages: "Deutsch, Italiano, English",
+    verified: true,
+    recommended: false,
+    jameda_url: "https://www.jameda.de/aerzte/bianchi-laura/stuttgart",
+    doctolib_url: "https://www.doctolib.de/arzt/laura-bianchi",
+    description: "Hautärztin mit ästhetischer Medizin"
+  },
+  {
+    id: "GER-DOC-007",
+    name: "Dr. Zeynep Öztürk",
+    specialty: "Pädiatrie",
+    bundesland: "Nordrhein-Westfalen",
+    city: "Düsseldorf",
+    phone: "+49 211 6667788",
+    email: "zeynep.ozturk@kinderarzt-duesseldorf.de",
+    website: "https://kinderarzt-ozturk.de",
+    languages: "Deutsch, Türkçe",
+    verified: true,
+    recommended: false,
+    jameda_url: "https://www.jameda.de/aerzte/ozturk-zeynep/duesseldorf",
+    doctolib_url: "https://www.doctolib.de/arzt/zeynep-ozturk",
+    description: "Kinderärztin mit kulturellem Verständnis"
+  },
+  {
+    id: "GER-DOC-008",
+    name: "Dr. Anna Schmidt",
+    specialty: "Gynäkologie",
+    bundesland: "Bayern",
+    city: "München",
+    phone: "+49 89 1112233",
+    email: "anna.schmidt@frauenarzt-muenchen.de",
+    website: "https://frauenarzt-schmidt.de",
+    languages: "Deutsch, English",
+    verified: true,
+    recommended: false,
+    jameda_url: "https://www.jameda.de/aerzte/schmidt-anna/muenchen",
+    doctolib_url: "https://www.doctolib.de/arzt/anna-schmidt",
+    description: "Frauenärztin mit Schwerpunkt Geburtshilfe"
+  },
+  {
+    id: "GER-DOC-009",
+    name: "Dr. Leila Mansouri",
+    specialty: "Psychiatrie",
+    bundesland: "Berlin",
+    city: "Berlin",
+    phone: "+49 30 4445566",
+    email: "leila.mansouri@psychiatrie-berlin.de",
+    website: "https://psychiatrie-mansouri.de",
+    languages: "Deutsch, فارسی, English",
+    verified: true,
+    recommended: false,
+    jameda_url: "https://www.jameda.de/aerzte/mansouri-leila/berlin",
+    doctolib_url: "https://www.doctolib.de/arzt/leila-mansouri",
+    description: "Psychiaterin mit interkultureller Therapie"
+  },
+  {
+    id: "GER-DOC-010",
+    name: "Dr. Gabriele Rossi",
+    specialty: "Allgemeinmedizin",
+    bundesland: "Baden-Württemberg",
+    city: "Karlsruhe",
+    phone: "+49 721 7778899",
+    email: "gabriele.rossi@praxis-karlsruhe.de",
+    website: "https://praxis-rossi.de",
+    languages: "Deutsch, Italiano",
+    verified: true,
+    recommended: false,
+    jameda_url: "https://www.jameda.de/aerzte/rossi-gabriele/karlsruhe",
+    doctolib_url: "https://www.doctolib.de/arzt/gabriele-rossi",
+    description: "Hausärztin mit italienischen Wurzeln"
+  }
+]
+
+// Extract unique values for filters
+export const bundeslaender = [...new Set(mockDoctors.map(d => d.bundesland))].sort()
+export const specialties = [...new Set(mockDoctors.map(d => d.specialty))].sort()
